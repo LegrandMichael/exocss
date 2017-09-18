@@ -1,1 +1,15 @@
-.master{}
+div.master {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.master h1 {
+    width: 100%;
+}
+.master div {
+    width: 45%;
+}
+
+.master img {
+    width: 50%;
+}
