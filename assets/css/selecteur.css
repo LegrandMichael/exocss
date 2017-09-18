@@ -1,15 +1,34 @@
-div.master {
-    display: flex;
-    flex-wrap: wrap;
+.master div {
+    width: 44%;
+    background-color: #8AC189;
+    margin:1%;
+    padding: 2%;
+    float: left;
 }
 
-.master h1 {
-    width: 100%;
-}
-.master div {
-    width: 45%;
+.master h2 {
+    margin-left: 15px;
+    font-size: 25px;
 }
 
 .master img {
-    width: 50%;
+    width: 45%;
+    height: 45%;
+    float: left; 
+    margin:1%;
+    padding: 2%;  
+}
+
+.master p {
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.master h3 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold; 
 }
